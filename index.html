@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="QQmusicApp">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link rel="stylesheet" type="text/css" href="css/home.css">
+        <link rel="stylesheet" type="text/css" href="css/singer.css">
+        <script src="js/one.js" ></script>
+        <script src="js/two.js"></script>
+        
+    </head>
+    <body>
+     <header>
+     <nav class="header_top clearfix"> 
+       <img class='nav_logo'src="images/logo.PNG">
+       <ul class="classfix">
+       	<li class="nav_a " ng-class='{active:route=="home"}'><a href="#/home">音乐馆</a></li>
+       	<li class="nav_a"><a href="">我的音乐</a></li>
+       	<li class="nav_a"><a href="">下载客户端</a></li>
+       	<li class="nav_a"><a href="">vip</a></li>
+       </ul>
+        <div class="search">
+          
+       	  <form action="submit">
+			<input type="text" class="nav_search" placeholder="Search...">
+			</form>
+       </div>
+       <a class='login' href="">登陆</a>
+        </nav>
+     <nav class='header_bottom'>
+       <ul>
+       	<li><a href="#/home">首页</a></li>
+       	<li><a href="#/singer">歌手</a></li>
+       	<li><a href="">专辑</a></li>
+       	<li><a href="">排行榜</a></li>
+       	<li><a href="">歌单广场</a></li>
+       	<li><a href="">MV</a></li>
+       </ul>
+     </nav>
+     </header>
+     <canvas id="canvas" style="display: block;margin: 5px auto;">
+         你的浏览器不支持
+     </canvas>
+     <section style=" position: relative">
+         <ng-view></ng-view>
+   
+     </section>
+     <footer>
+     	<img src="images/bottom.PNG">
+     </footer>
+     <script src="node_modules/angular/angular.js"></script>
+     <script src="node_modules/angular-route/angular-route.js"></script>
+     <script src="js/jquery-3.0.0.min.js"></script>
+     <script src="js/KGGMove.js"></script>
+     <script src="js/bananer.js"></script>
+     <script src="app.js"></script>
+     <script src="home/home.js"></script>
+     <script src="singer/singer.js"></script>
+
+    </body>
+</html>

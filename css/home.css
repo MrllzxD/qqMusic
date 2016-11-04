@@ -1,0 +1,155 @@
+section{
+	position: relative;
+}
+.background_banner{
+	width: 100%;
+	height: 734px;
+}
+.inner{
+	   position: absolute;
+	   top: 0;
+		width: 100%;
+	    height: 734px;
+	    background: rgba(0,0,0,0.5);
+      
+}
+/* 轮播图按钮 */
+.inner .btn_left{
+	width: 50px;
+	height: 100px;
+	position:absolute;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+	line-height: 100px;
+	font-size: 40px;
+	color: white;
+	top:300px;
+}
+.inner .btn_left:hover{
+	background:#31C27C ;
+}
+.inner .btn_right{
+	width: 50px;
+	height: 100px;
+	position:absolute;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+	line-height: 100px;
+	font-size: 40px;
+	color: white;
+	top:300px;
+	right: 0;
+}
+.inner .btn_right:hover{
+	background:#31C27C ;
+}
+/* 轮播图 */
+.inner .banner{
+	position: relative;
+	width: 1200px;
+	height: 415px;
+	margin:0 auto;
+	margin-top: 150px;
+	
+    overflow: hidden;
+}
+.inner .banner ul{
+  position: absolute;
+  width: 3600px;
+  height: 415px;
+}
+.inner .banner .banner_li{
+	float: left;
+	width: 300px;
+	height: 415px;
+}
+.inner .banner .banner_li .pic{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+}
+.inner .banner .banner_li img{
+	width: 300px;
+	height: 300px;
+}
+.inner .banner .banner_li img:hover{
+    transition:all 1s;
+	transform: scale(1.2);
+	
+}
+.inner .banner .banner_li .banner_li_bottom{
+	background:rgba(0,0,0,0.4);
+	height: 115px;
+	width: 300px;
+
+}
+.inner .banner .banner_li .banner_li_bottom p{
+	 line-height: 80px; 
+	color: white;
+	text-align: center;
+}
+.inner .banner .banner_li .banner_li_bottom:hover{
+	background: #31C27C;
+}
+/*轮播图2*/
+/*标题开始*/
+.title{
+	width: 100%;
+	height:610px;
+	margin: 0 auto;
+}
+.title_left{
+    margin-top: 10px;
+	width: 100px;
+	height: 1px;
+	display: inline-block;
+	border-bottom: 1px solid gray; 
+
+}
+h1{ 
+	text-align: center;
+	display: inline-block;
+	line-height: 50px;
+	width: 100px;
+	height: 50px;
+}
+/*标题结束*/
+
+
+
+/*排行榜*/
+.billboard{
+	text-align: center;
+	width: 100%;
+	height: 830px;
+	background: url(../images/backgrond.PNG);
+	background-size: 100% 830px;
+}
+.billboard h1{
+	margin-top: 100px;
+	font-size: 48px;
+	text-align: center;
+	line-height: 100px;
+	color:white;
+	 width:200px;
+	 height:100px;
+}
+.billboard ul{
+	margin-left: 80px;
+}
+.billboard ul li{
+	float: left;
+}
+.billboard ul li img{
+	width: 300px;
+	height: 567px;
+}
+.billboard ul li img:hover{
+	 transition:all 1s;
+	transform: scale(1.2);
+}
+.billboard ul li div{
+	width: 300px;
+	height: 567px;
+	overflow: hidden;
+}

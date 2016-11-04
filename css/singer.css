@@ -1,0 +1,64 @@
+.singer_header{
+ width: 100%;
+ height: 376px;
+  position: relative;
+}
+.singer_header img{
+	 width: 100%;
+     height: 376px;
+}
+/*展示部分*/
+.show{
+  position:relative;
+   top:20px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 5%;
+
+}
+/*文字导航部分*/
+/*字母导航部分*/
+.show .singer_nav{
+	box-sizing: border-box;
+	padding: 20px 0 0 20px;
+	background: #FBFBFD;
+	width: 100%;
+	height: 177px;
+}
+.show .singer_nav span{
+	
+
+	width: 40px;
+	height: 20px;
+	background: #31C27C;
+	color: white;
+	margin-top: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+.show .singer_nav ul{
+	height: 83px;
+	width: 100%;
+}
+.show .singer_nav ul li{
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.show .singer_nav ul li a{
+	font-size: 15px;
+}
+/*导航结束*/
+.show .singer_pic{
+	float: left;
+	
+}
+.show .singer_pic{
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.show .singer_pic img{
+	width: 224px;
+	height: 254px;
+ 
+}
